@@ -1,0 +1,7 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: rails-build-run
+spec:
+  pipelineRef:
+    name: rails-build-pipeline
